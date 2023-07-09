@@ -70,9 +70,11 @@ header {
 .failures-img img {
     width: 400px;
 }
-.failures-text{
+
+.failures-text {
     margin-top: 40px;
 }
+
 .normal-text h2 {
     font-size: 1.7rem;
     color: #151414;
@@ -97,30 +99,71 @@ header {
     color: #444343;
     font-weight: 400;
 }
-.plans-container{
+
+.plans-container {
     width: 80%;
     margin: 0 auto;
     padding: 30px 100px 30px 100px;
     text-align: center;
 }
-.plans-container h2{
+
+.plans-container h2 {
     color: #151414;
     font-size: 1.7rem;
     margin-bottom: 35px;
 }
-.planning{
+
+.planning {
     display: flex;
     justify-content: space-between;
 }
-.planning img{
+
+.planning img {
     width: 70px;
     margin-bottom: 10px;
 }
-.planning h4{
+
+.planning h4 {
     color: #151414;
     margin-bottom: 10px;
 }
-.planning p{
+
+.planning p {
     color: #444343;
     font-size: 0.9rem;
+}
+
+/* MINDSET  */
+.mindset-container {
+    width: 70%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 5x;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.mindset-container h2{
+    color: white;
+    padding: 50px 0px 0px 50px;
+    font-size: 2rem;
+}
+.mindset-container button {
+    background-color: white;
+    border: none;
+    padding: 15px 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    margin: 20px 0px 0px 50px;
+    border: 2px solid white;
+
+}
+
+.mindset-container button:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.2s;
 }
